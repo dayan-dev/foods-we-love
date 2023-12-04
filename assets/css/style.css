@@ -1,0 +1,30 @@
+/* .material-icons {
+  color: #ffffff;
+}
+
+.material-icons:hover {
+  color: #000000;
+} */
+
+#_back {
+  display: none;
+}
+
+/* Logo animation */
+#logo {
+  animation-name: logo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes logo {
+  0% {
+    color: #000000;
+  }
+
+  100% {
+    color: #ffffff;
+  }
+}
